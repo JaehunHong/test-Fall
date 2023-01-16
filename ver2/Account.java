@@ -13,7 +13,7 @@ public class Account {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 	public Account(double balance) {
 		this("Unknown", balance);
 	}
@@ -24,7 +24,7 @@ public class Account {
 	}
 	
 
-
+	//New Comment for Balance
 	public double getBalance() {
 		return balance;
 	}
@@ -65,7 +65,6 @@ public class Account {
 		
 		System.out.println("Balance=$" + a1.getBalance());
 		a1.withdraw(200.0);
-		
 		
 		System.out.println("Balance=$" + a1.getBalance());
 		System.out.println(a1.toString());
