@@ -66,6 +66,7 @@ public class Account {
 		System.out.println("Balance=$" + a1.getBalance());
 		a1.withdraw(200.0);
 		
+		
 		System.out.println("Balance=$" + a1.getBalance());
 		System.out.println(a1.toString());
 		System.out.println(a1);
